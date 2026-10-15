@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080610">
+  <meta name="description" content="Политика конфиденциальности сервиса Unknown's VPN и Telegram-бота @VPN_Unknownbot.">
+  <title>Политика конфиденциальности — Unknown's VPN</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080610;
+      --panel: #100c1c;
+      --panel-2: #151025;
+      --text: #f4f0ff;
+      --muted: #b8aecb;
+      --accent: #b56cff;
+      --accent-2: #7c3aed;
+      --line: rgba(190, 140, 255, .2);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 15% 0%, rgba(124, 58, 237, .18), transparent 42rem),
+        radial-gradient(ellipse at 100% 30%, rgba(181, 108, 255, .09), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .wrap { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 44px 0 64px; }
+    header { text-align: center; padding: 28px 16px 34px; }
+    .logo {
+      width: 68px; height: 68px; margin: 0 auto 18px; display: grid; place-items: center;
+      border-radius: 22px; font-size: 30px; font-weight: 800; color: white;
+      background: linear-gradient(145deg, #c084fc, #7c3aed 68%, #4c1d95);
+      box-shadow: 0 0 34px rgba(168, 85, 247, .35);
+    }
+    .eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: .18em; font-size: 12px; font-weight: 800; }
+    h1 { font-size: clamp(29px, 6vw, 44px); line-height: 1.15; margin: 12px 0; letter-spacing: -.035em; }
+    .subtitle { color: var(--muted); margin: 0; }
+    .date {
+      display: inline-block; margin-top: 18px; padding: 7px 13px; border: 1px solid var(--line);
+      border-radius: 999px; background: rgba(181, 108, 255, .07); color: #ded0f6; font-size: 13px;
+    }
+    .intro, section {
+      background: linear-gradient(145deg, rgba(21, 16, 37, .96), rgba(13, 10, 23, .96));
+      border: 1px solid var(--line); border-radius: 18px; padding: 24px 26px; margin: 16px 0;
+      box-shadow: 0 12px 35px rgba(0,0,0,.12);
+    }
+    h2 { color: #dfc2ff; font-size: 20px; line-height: 1.35; margin: 0 0 13px; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 4px; padding-left: 23px; }
+    li { padding-left: 4px; margin: 5px 0; }
+    li::marker { color: var(--accent); }
+    a { color: #d6adff; text-underline-offset: 3px; }
+    a:hover { color: white; }
+    .contact { border-color: rgba(181, 108, 255, .42); }
+    .bot-link {
+      display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; padding: 10px 15px;
+      border-radius: 11px; background: rgba(124, 58, 237, .2); border: 1px solid var(--line);
+      color: #ead9ff; text-decoration: none; font-weight: 650;
+    }
+    footer { text-align: center; color: #8e829f; font-size: 13px; padding-top: 25px; }
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 20px, 900px); padding-top: 18px; }
+      header { padding: 24px 8px 25px; }
+      .intro, section { padding: 20px 18px; border-radius: 15px; }
+      body { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">U</div>
+      <div class="eyebrow">Unknown's VPN</div>
+      <h1>Политика конфиденциальности</h1>
+      <p class="subtitle">Как обрабатывается и защищается информация пользователей</p>
+      <div class="date">Последнее обновление: 15 октября 2026 года</div>
+    </header>
+
+    <div class="intro">
+      Настоящая Политика конфиденциальности определяет порядок сбора, использования, хранения и защиты информации пользователей Telegram-бота
+      <a href="https://t.me/VPN_Unknownbot" target="_blank" rel="noopener noreferrer">@VPN_Unknownbot</a>,
+      предоставляющего доступ к сервису Unknown's VPN (далее — «Сервис»).
+    </div>
+
+    <section>
+      <h2>1. Общие положения</h2>
+      <p><strong>1.1.</strong> Настоящая Политика регулирует обработку информации пользователей Telegram-бота @VPN_Unknownbot.</p>
+      <p><strong>1.2.</strong> Используя бота, Пользователь подтверждает, что ознакомился с настоящей Политикой.</p>
+      <p><strong>1.3.</strong> Если Пользователь не согласен с условиями Политики, он должен прекратить использование бота и Сервиса.</p>
+    </section>
+
+    <section>
+      <h2>2. Какие данные мы собираем</h2>
+      <p><strong>2.1.</strong> Для обеспечения работы бота и предоставления услуг Unknown's VPN могут обрабатываться следующие данные:</p>
+      <ul>
+        <li>Telegram ID пользователя;</li>
+        <li>имя пользователя (username), если оно указано в Telegram;</li>
+        <li>имя профиля Telegram;</li>
+        <li>информация о подписке, её сроке действия и статусе;</li>
+        <li>история взаимодействия с ботом, включая использование команд;</li>
+        <li>технические данные, необходимые для работы VPN-сервиса, если они собираются используемой инфраструктурой.</li>
+      </ul>
+      <p><strong>2.2.</strong> Бот не запрашивает паспортные данные и другие документы, если они не требуются для отдельной функции Сервиса.</p>
+      <p><strong>2.3.</strong> При использовании VPN-сервиса могут обрабатываться дополнительные технические сведения, предусмотренные настройками VPN-серверов и используемым программным обеспечением.</p>
+    </section>
+
+    <section>
+      <h2>3. Цели обработки данных</h2>
+      <p>Полученная информация может использоваться для следующих целей:</p>
+      <ul>
+        <li>предоставление доступа к Unknown's VPN;</li>
+        <li>создание и управление VPN-подписками;</li>
+        <li>проверка статуса и срока действия подписки;</li>
+        <li>обработка обращений пользователей и оказание технической поддержки;</li>
+        <li>информирование об изменениях в работе Сервиса;</li>
+        <li>обеспечение безопасности и предотвращение злоупотреблений;</li>
+        <li>улучшение работы бота и устранение технических неисправностей.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Передача информации третьим лицам</h2>
+      <p><strong>4.1.</strong> Данные могут передаваться третьим лицам только при наличии законных оснований, согласия Пользователя, когда оно необходимо, либо в объёме, необходимом для предоставления услуг.</p>
+      <p><strong>4.2.</strong> К таким получателям могут относиться:</p>
+      <ul>
+        <li>Telegram — в рамках работы платформы и её инфраструктуры;</li>
+        <li>поставщики серверов и хостинга, обеспечивающие работу VPN;</li>
+        <li>платёжные сервисы, если в боте предусмотрена оплата;</li>
+        <li>государственные органы — в случаях, предусмотренных применимым законодательством.</li>
+      </ul>
+      <p><strong>4.3.</strong> Администрация не продаёт персональные данные пользователей третьим лицам.</p>
+    </section>
+
+    <section>
+      <h2>5. Хранение и защита данных</h2>
+      <p><strong>5.1.</strong> Данные хранятся только в течение периода, необходимого для достижения целей обработки, исполнения обязательств и соблюдения требований законодательства.</p>
+      <p><strong>5.2.</strong> Администрация принимает разумные организационные и технические меры для защиты информации от несанкционированного доступа, изменения, раскрытия или уничтожения.</p>
+      <p><strong>5.3.</strong> Несмотря на принимаемые меры, невозможно гарантировать абсолютную безопасность данных при их передаче и хранении в интернете.</p>
+    </section>
+
+    <section>
+      <h2>6. Особенности использования VPN</h2>
+      <p><strong>6.1.</strong> Для предоставления VPN-доступа Сервис может обрабатывать технические сведения, необходимые для подключения, ограничения доступа и обеспечения стабильной работы серверов.</p>
+      <p><strong>6.2.</strong> Какие именно сведения о подключениях и сетевой активности сохраняются, зависит от используемого VPN-программного обеспечения и конфигурации серверов.</p>
+      <p><strong>6.3.</strong> Администрация не заявляет об отсутствии журналов подключений или полной анонимности пользователей, если такие свойства фактически не подтверждены настройками и работой Сервиса.</p>
+    </section>
+
+    <section>
+      <h2>7. Права пользователей</h2>
+      <p>Пользователь вправе обратиться к Администрации по вопросам обработки своих данных, запросить доступ к ним, потребовать исправления или удаления информации, если это применимо и не противоречит требованиям законодательства.</p>
+      <p>Для обращения можно воспользоваться контактами, указанными в боте или официальных каналах Unknown's VPN.</p>
+    </section>
+
+    <section>
+      <h2>8. Ограничение ответственности</h2>
+      <p><strong>8.1.</strong> Пользователь понимает, что использование интернета и сторонних платформ связано с определёнными рисками.</p>
+      <p><strong>8.2.</strong> Администрация принимает разумные меры для защиты информации, но не может гарантировать безопасность систем и инфраструктуры сторонних поставщиков.</p>
+      <p><strong>8.3.</strong> Настоящий раздел не исключает ответственность Администрации в случаях, когда такое исключение запрещено применимым законодательством.</p>
+    </section>
+
+    <section>
+      <h2>9. Изменения в Политике</h2>
+      <p><strong>9.1.</strong> Администрация вправе обновлять настоящую Политику при изменении функциональности бота, инфраструктуры или требований законодательства.</p>
+      <p><strong>9.2.</strong> Новая редакция вступает в силу с момента публикации, если в ней не указано иное.</p>
+      <p><strong>9.3.</strong> Существенные изменения доводятся до сведения пользователей разумным способом, когда это необходимо.</p>
+    </section>
+
+    <section class="contact">
+      <h2>10. Контактная информация</h2>
+      <p><strong>Название сервиса:</strong> Unknown's VPN</p>
+      <p><strong>Telegram-бот:</strong> @VPN_Unknownbot</p>
+      <p>По вопросам конфиденциальности и обработки данных Пользователь может обратиться через Telegram-бот или официальные каналы связи Сервиса.</p>
+      <a class="bot-link" href="https://t.me/VPN_Unknownbot" target="_blank" rel="noopener noreferrer">✦ Открыть Telegram-бот</a>
+    </section>
+
+    <footer>© 2026 Unknown's VPN · Политика конфиденциальности</footer>
+  </main>
+</body>
+</html>
